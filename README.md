@@ -1,7 +1,7 @@
 # Project
     Linux - Guide for people
 
-## reader type
+## Reader preference
     Any person who has trouble switching to linux
 
 ## Summary
