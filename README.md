@@ -11,7 +11,6 @@
     Website essentials (HTML CSS Javascript)
     Tailwind - Website styles and behavior
     PHP -- Server side
-    __C++ C or C#__
     AJAX - Website && XML communication
 
 ## Website Structure
