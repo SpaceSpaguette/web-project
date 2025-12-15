@@ -1,0 +1,37 @@
+.bg_base {
+    background-color: #282828;
+}
+.innertext_white_bold {
+    color: #ebdbb2;
+    font-weight: bolder;
+}
+.bg0_h {
+    background-color: #1d2021;
+}
+.bg0 {
+    background-color: #282828;
+}
+.bg1 {
+    background-color: #3c3836;
+}
+.bg2 {
+    background-color: #504945;
+}
+.bg3 {
+    background-color: #665c54;
+}
+.bg4 {
+    background-color: #7c6f64;
+}
+.bg0_s {
+    background-color: #32302f;
+}
+.fg4 {
+    background-color: #a89984;
+}
+.fg3 {
+    background-color: #bdae93;
+}
+.fg2 {
+    background-color: #d5c4a1;
+}
