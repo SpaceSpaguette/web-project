@@ -1,0 +1,5 @@
+{
+    "title":"Linux distros and their uses",
+    "text":"What are major distros? They are basically just flavors. We call them bases. It isn't what you see that makes the distro. It's whats underneath. These underlying systems are what makes them : Package Managers, Software selection, Init system (Mostly systemd. Alternatives do exist however they arent supported by most software.), update frequency (This is really important)",
+    "image":"were going to make it a pain"
+}
