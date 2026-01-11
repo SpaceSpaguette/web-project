@@ -2,38 +2,17 @@
 async function load_page(site) {
     
     const file = await fetch('../data/' + site + '.json');
-    const data = file.json();
+    const data = await file.json();
     
     const container = document.getElementById('container');
-    container.innerHTML = '';alert(site)
+    //container.innerHTML = alert(site)
     document.getElementById('sidebar').innerHTML = ''
+    Object.entries(data).forEach(([key, value]) =>{
+        const legend = document.getElementById('sidebar');
+        const container = document.getElementById('container');
+    });
     modeswitch(false);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function modeswitch(mode) {
     Boolean(mode);
@@ -42,4 +21,11 @@ function modeswitch(mode) {
     }else {
         document.getElementById('sidebar').style.display = "flex";
     }
+}
+
+
+
+
+
+function parseText(text) {
 }
