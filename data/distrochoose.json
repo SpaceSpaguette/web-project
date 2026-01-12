@@ -1,9 +1,9 @@
 {
     "title": "Linux distros and their uses",
-    "text":  "What is the difference between linux distributions.",
+    "Sucks to suck dicks":  "What is the difference between linux distributions.",
     "list": ["release cycle","Package manager","Init system"],
     "text": "now you may ask. why there was no Look and feel. its because of the simple thing",
-    "modularity": "Modularity. Now the linux ecosystem is advanced. Because its usual for things to break linux makes it easy to plug and play. (Except systemd. Unless you like pain). It means that if you dont like something. Like how file manager works. or how the distro looks. you can change it. Some distros let you choose out of box. (ARCH-LINUX) however they are complex. With power comes responsibility. (Thats why we have sudo. So the responsibility is not needed anymore)",
+    "modularity": "$(red)Modularity$. Now the linux ecosystem is advanced. Because its usual for things to break linux makes it easy to plug and play. (Except systemd. Unless you like pain). It means that if you dont like something. Like how file manager works. or how the distro looks. you can change it. Some distros let you choose out of box. (ARCH-LINUX) however they are complex. With power comes responsibility. (Thats why we have sudo. So the responsibility is not needed anymore)",
     "img": "paste an image loc here",
     "Choices":"Now that we went over what makes a linux distro a distro. Its time we talked about the choices. There are many of them",
     "Debian/Ubuntu": "This is for most the entry point to linux. The very definition of stable and reliable. This is the base for most distros. Package manager is APT and releace cycle is so slow. Do not expect to have the lastest drivers"

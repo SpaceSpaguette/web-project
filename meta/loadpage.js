@@ -7,11 +7,21 @@ async function load_page(site) {
     const container = document.getElementById('container');
     //container.innerHTML = alert(site)
     document.getElementById('sidebar').innerHTML = ''
+
+
     Object.entries(data).forEach(([key, value]) =>{
         const legend = document.getElementById('sidebar');
         const container = document.getElementById('container');
+        if (key === "img") {
+            console.log(key);
+        } else {
+            var pattern = /\$\(([^)]+)\)([^$]+)\$/gm
+            const out = value.toString().replace(pattern,'<span class="$1">$2</span>');
+            console.log(out);
+        };
     });
     modeswitch(false);
+
 }
 
 function modeswitch(mode) {
@@ -21,11 +31,4 @@ function modeswitch(mode) {
     }else {
         document.getElementById('sidebar').style.display = "flex";
     }
-}
-
-
-
-
-
-function parseText(text) {
 }
