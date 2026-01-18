@@ -8,7 +8,10 @@
 body {
     background-color: #212425; 
     min-height: 2000px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .header {
@@ -18,7 +21,7 @@ body {
     align-items: center;
     padding-left: 40px;
     font-weight: bold;
-    color: #282828;
+    color: #ffffff;
     background-color: rgb(20, 57, 57);
 }
 
@@ -44,7 +47,7 @@ body {
 .text-div {
     padding: 24px;
     color: #a6a1a1; 
-    line-height: 1.6;
+    line-height: 1.6px;
 }
 
 /* Fixed Sidebar */
@@ -62,9 +65,4 @@ body {
     
     /* display: none;
     color: #282828;*/
-}
-.wrappper {
-    padding: 24px;
-    border-radius: 24px;
-    background-color: brown;
 }

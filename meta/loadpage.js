@@ -13,7 +13,7 @@ async function load_page(site) {
     Object.entries(data).forEach(([key, value]) =>{
         const wrapper = document.createElement('div');
         const sidewrapper = document.createElement('div');
-
+        wrapper.classList.add('site-wrapper');
 
 
         const legend = document.getElementById('sidebar');
@@ -26,7 +26,28 @@ async function load_page(site) {
         }
         else if (key === "title"){
             wrapper.innerHTML = `<h2 class"title">${value}</h2>`
+            wrapper.classList.remove('site-wrapper');
             container.appendChild(wrapper);
+        }
+        else if (key ==="text") {
+            var pattern = /\$\(([^)]+)\)([^$]+)\$/gm
+            var out = value.toString().replace(pattern,'<span class="$1">$2</span>');
+            out = out.replace(/\n/g, '<br>');
+            console.log(out);
+
+            let sideOut = key.toString().replace(/\n/g, '<br>');
+
+
+
+            wrapper.innerHTML= `<p>${out}</p>`;
+            sidewrapper.innerHTML= `<p>${sideOut}</p>`;
+            container.appendChild(wrapper)
+            let inter = 0;
+            inter++
+            console.log(inter)
+
+            
+
         }
         
         
