@@ -50,7 +50,19 @@ p {
     align-items: center;
 }
 .red {
-    color: red;
+    color: #cc241d;
+    font-weight: bolder;
+}
+.blue {
+    color: #458588;
+    font-weight: bolder;
+}
+.yellow {   
+    color: #d79921;
+    font-weight: bolder;
+}
+.green {
+    color: #98971a;
     font-weight: bolder;
 }
 
